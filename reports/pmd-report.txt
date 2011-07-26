@@ -1,0 +1,125 @@
+
+src/com/wjholden/nmap/NmapConstants.java:12	An Interface should be used only to model a behaviour; consider converting this to a class.
+src/com/wjholden/nmap/NmapConstants.java:68	Avoid excessively long variable names like MENU_ITEM_DEBUG_ENABLE
+src/com/wjholden/nmap/NmapConstants.java:73	Avoid excessively long variable names like MENU_ITEM_DEBUG_EMAIL
+src/com/wjholden/nmap/NmapConstants.java:78	Avoid excessively long variable names like MENU_ITEM_MORE_HELP
+src/com/wjholden/nmap/NmapConstants.java:83	Avoid excessively long variable names like MENU_ITEM_REINSTALL
+src/com/wjholden/nmap/NmapConstants.java:91	Avoid excessively long variable names like MENU_GROUP_EXTRA_OPTIONS
+src/com/wjholden/nmap/NmapInstall.java:33	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapInstall.java:41	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapInstall.java:49	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapInstall.java:69	Local variable 'msg' could be declared final
+src/com/wjholden/nmap/NmapInstall.java:73	A method should have only one exit point, and that should be the last statement in the method
+src/com/wjholden/nmap/NmapInstall.java:94	Local variable 'msg' could be declared final
+src/com/wjholden/nmap/NmapInstall.java:99	Local variable 'msg' could be declared final
+src/com/wjholden/nmap/NmapInstall.java:132	Local variable 'buf' could be declared final
+src/com/wjholden/nmap/NmapInstall.java:135	Local variable 'in_nmap_a' could be declared final
+src/com/wjholden/nmap/NmapInstall.java:195	Avoid excessively long variable names like installationResults
+src/com/wjholden/nmap/NmapInstall.java:200	Avoid variables with short names like os
+src/com/wjholden/nmap/NmapInstall.java:201	Avoid variables with short names like in
+src/com/wjholden/nmap/NmapInstall.java:240	Avoid assignments in operands
+src/com/wjholden/nmap/NmapInstall.java:240	Found 'DU'-anomaly for variable 'input' (lines '240'-'265').
+src/com/wjholden/nmap/NmapInstall.java:244	Avoid assignments in operands
+src/com/wjholden/nmap/NmapInstall.java:244	Found 'DU'-anomaly for variable 'error' (lines '244'-'265').
+src/com/wjholden/nmap/NmapMain.java:1	A high number of imports can indicate a high degree of coupling within an object.
+src/com/wjholden/nmap/NmapMain.java:43	The class 'NmapMain' has a Cyclomatic Complexity of 5 (Highest = 20).
+src/com/wjholden/nmap/NmapMain.java:43	This class has too many methods, consider refactoring it.
+src/com/wjholden/nmap/NmapMain.java:43	Too many fields
+src/com/wjholden/nmap/NmapMain.java:110	Avoid variables with short names like sh
+src/com/wjholden/nmap/NmapMain.java:125	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapMain.java:130	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapMain.java:142	Avoid variables with short names like pd
+src/com/wjholden/nmap/NmapMain.java:147	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapMain.java:152	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapMain.java:152	Perhaps 'preferencesEditor' could be replaced by a local variable.
+src/com/wjholden/nmap/NmapMain.java:166	Avoid variables with short names like ne
+src/com/wjholden/nmap/NmapMain.java:171	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapMain.java:171	Perhaps 'wifiManager' could be replaced by a local variable.
+src/com/wjholden/nmap/NmapMain.java:176	Perhaps 'wifiInfo' could be replaced by a local variable.
+src/com/wjholden/nmap/NmapMain.java:179	Avoid excessively long variable names like savedInstanceState
+src/com/wjholden/nmap/NmapMain.java:179	Avoid really long methods.
+src/com/wjholden/nmap/NmapMain.java:179	Parameter 'savedInstanceState' is not assigned and could be declared final
+src/com/wjholden/nmap/NmapMain.java:179	The method 'onCreate' has a Cyclomatic Complexity of 20.
+src/com/wjholden/nmap/NmapMain.java:179	The method onCreate() has an NPath complexity of 900
+src/com/wjholden/nmap/NmapMain.java:188	Local variable 'target' could be declared final
+src/com/wjholden/nmap/NmapMain.java:192	Local variable 'args' could be declared final
+src/com/wjholden/nmap/NmapMain.java:200	The String literal "installVerified" appears 4 times in this file; the first occurrence is on line 200
+src/com/wjholden/nmap/NmapMain.java:202	The String literal "hasRunOneScan" appears 4 times in this file; the first occurrence is on line 202
+src/com/wjholden/nmap/NmapMain.java:204	The String literal "canGetRoot" appears 4 times in this file; the first occurrence is on line 204
+src/com/wjholden/nmap/NmapMain.java:230	Local variable 'curVersion' could be declared final
+src/com/wjholden/nmap/NmapMain.java:252	Avoid variables with short names like v
+src/com/wjholden/nmap/NmapMain.java:252	Parameter 'v' is not assigned and could be declared final
+src/com/wjholden/nmap/NmapMain.java:257	Avoid excessively long variable names like targetAndArguments
+src/com/wjholden/nmap/NmapMain.java:257	Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+src/com/wjholden/nmap/NmapMain.java:257	Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+src/com/wjholden/nmap/NmapMain.java:257	Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+src/com/wjholden/nmap/NmapMain.java:257	Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+src/com/wjholden/nmap/NmapMain.java:286	Avoid variables with short names like v
+src/com/wjholden/nmap/NmapMain.java:286	Parameter 'v' is not assigned and could be declared final
+src/com/wjholden/nmap/NmapMain.java:310	Parameter 'v' is not assigned and could be declared final
+src/com/wjholden/nmap/NmapMain.java:322	Avoid instantiating String objects; this is usually unnecessary.
+src/com/wjholden/nmap/NmapMain.java:327	Avoid instantiating String objects; this is usually unnecessary.
+src/com/wjholden/nmap/NmapMain.java:344	Avoid excessively long variable names like savedInstanceState
+src/com/wjholden/nmap/NmapMain.java:344	Parameter 'savedInstanceState' is not assigned and could be declared final
+src/com/wjholden/nmap/NmapMain.java:352	Avoid using if statements without curly braces
+src/com/wjholden/nmap/NmapMain.java:354	Avoid using if statements without curly braces
+src/com/wjholden/nmap/NmapMain.java:428	Local variable 'uri' could be declared final
+src/com/wjholden/nmap/NmapMain.java:442	Local variable 'surveyActivity' could be declared final
+src/com/wjholden/nmap/NmapMain.java:519	Avoid using if statements without curly braces
+src/com/wjholden/nmap/NmapMain.java:533	Avoid really long methods.
+src/com/wjholden/nmap/NmapMain.java:533	The method 'initHandler' has a Cyclomatic Complexity of 18.
+src/com/wjholden/nmap/NmapMain.java:537	Avoid really long methods.
+src/com/wjholden/nmap/NmapMain.java:537	The method 'handleMessage' has a Cyclomatic Complexity of 17.
+src/com/wjholden/nmap/NmapMain.java:539	Found 'DU'-anomaly for variable 'alert' (lines '539'-'647').
+src/com/wjholden/nmap/NmapMain.java:539	Found 'DU'-anomaly for variable 'alert' (lines '539'-'647').
+src/com/wjholden/nmap/NmapMain.java:539	Found 'DU'-anomaly for variable 'alert' (lines '539'-'647').
+src/com/wjholden/nmap/NmapMain.java:545	An empty statement (semicolon) not part of a loop
+src/com/wjholden/nmap/NmapMain.java:577	Position literals first in String comparisons
+src/com/wjholden/nmap/NmapMain.java:581	Position literals first in String comparisons
+src/com/wjholden/nmap/NmapMain.java:585	Position literals first in String comparisons
+src/com/wjholden/nmap/NmapMain.java:603	Avoid assignments in operands
+src/com/wjholden/nmap/NmapMain.java:603	Found 'DU'-anomaly for variable 'line' (lines '603'-'647').
+src/com/wjholden/nmap/NmapMain.java:603	Found 'DU'-anomaly for variable 'line' (lines '603'-'647').
+src/com/wjholden/nmap/NmapMain.java:603	Found 'DU'-anomaly for variable 'line' (lines '603'-'647').
+src/com/wjholden/nmap/NmapScan.java:25	The class 'NmapScan' has a Cyclomatic Complexity of 10 (Highest = 21).
+src/com/wjholden/nmap/NmapScan.java:29	Avoid variables with short names like os
+src/com/wjholden/nmap/NmapScan.java:29	Perhaps 'os' could be replaced by a local variable.
+src/com/wjholden/nmap/NmapScan.java:30	Avoid variables with short names like in
+src/com/wjholden/nmap/NmapScan.java:30	Perhaps 'in' could be replaced by a local variable.
+src/com/wjholden/nmap/NmapScan.java:31	Perhaps 'err' could be replaced by a local variable.
+src/com/wjholden/nmap/NmapScan.java:32	Avoid variables with short names like p
+src/com/wjholden/nmap/NmapScan.java:32	Perhaps 'p' could be replaced by a local variable.
+src/com/wjholden/nmap/NmapScan.java:78	Avoid really long methods.
+src/com/wjholden/nmap/NmapScan.java:78	The method 'doInBackground' has a Cyclomatic Complexity of 21.
+src/com/wjholden/nmap/NmapScan.java:78	The method doInBackground() has an NPath complexity of 79872
+src/com/wjholden/nmap/NmapScan.java:80	Found 'DU'-anomaly for variable 'exeParams' (lines '80'-'233').
+src/com/wjholden/nmap/NmapScan.java:88	Found 'DU'-anomaly for variable 'temporaryFolder' (lines '88'-'233').
+src/com/wjholden/nmap/NmapScan.java:107	A method should have only one exit point, and that should be the last statement in the method
+src/com/wjholden/nmap/NmapScan.java:120	A method should have only one exit point, and that should be the last statement in the method
+src/com/wjholden/nmap/NmapScan.java:148	Position literals first in String comparisons
+src/com/wjholden/nmap/NmapScan.java:149	Avoid using if...else statements without curly braces
+src/com/wjholden/nmap/NmapScan.java:181	Avoid assignments in operands
+src/com/wjholden/nmap/NmapScan.java:184	Prefer StringBuffer over += for concatenating strings
+src/com/wjholden/nmap/NmapScan.java:188	Local variable 'msg1' could be declared final
+src/com/wjholden/nmap/NmapScan.java:195	Local variable 'msg' could be declared final
+src/com/wjholden/nmap/NmapScan.java:203	Avoid assignments in operands
+src/com/wjholden/nmap/NmapScan.java:205	Local variable 'msg' could be declared final
+src/com/wjholden/nmap/NmapScan.java:211	Local variable 'msg' could be declared final
+src/com/wjholden/nmap/NmapScan.java:220	Local variable 'msg' could be declared final
+src/com/wjholden/nmap/NmapScan.java:228	Position literals first in String comparisons
+src/com/wjholden/nmap/NmapSurvey.java:39	Avoid excessively long variable names like savedInstanceState
+src/com/wjholden/nmap/NmapSurvey.java:39	Parameter 'savedInstanceState' is not assigned and could be declared final
+src/com/wjholden/nmap/NmapSurvey.java:49	Avoid variables with short names like v
+src/com/wjholden/nmap/NmapSurvey.java:49	Parameter 'v' is not assigned and could be declared final
+src/com/wjholden/nmap/NmapSurvey.java:50	Local variable 'myUploadData' could be declared final
+src/com/wjholden/nmap/NmapSurvey.java:72	To be compliant to J2EE, a webapp should not use any thread.
+src/com/wjholden/nmap/NmapSurvey.java:77	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapSurvey.java:82	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapSurvey.java:87	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/wjholden/nmap/NmapSurvey.java:97	It is a good practice to call super() in a constructor
+src/com/wjholden/nmap/NmapSurvey.java:113	Local variable 'client' could be declared final
+src/com/wjholden/nmap/NmapSurvey.java:114	Local variable 'url' could be declared final
+src/com/wjholden/nmap/NmapSurvey.java:115	Local variable 'uri' could be declared final
+src/com/wjholden/nmap/NmapSurvey.java:117	Local variable 'httppost' could be declared final
+src/com/wjholden/nmap/NmapUtilities.java:83	Avoid instantiating new objects inside loops
+src/com/wjholden/nmap/NmapUtilities.java:108	Found 'DD'-anomaly for variable 'dataDir' (lines '108'-'110').

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Nmap</string>
+	<string name="helpArgs">Arguments (use --system-dns outside LAN)</string>
+	<string name="helpTarget">Target (i.e. 192.168.1.1/24)</string>
+	<string name="gpl">This program is free software: you can redistribute
+		it and/or modify it under the terms of the GNU General Public License
+		as published by the Free Software Foundation, either version 3 of the
+		License, or (at your option) any later version.\n\nThis program is
+		distributed in the hope that it will be useful, but WITHOUT ANY
+		WARRANTY; without even the implied warranty of MERCHANTABILITY or
+		FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+		for more details.\n\nYou should have received a copy of the GNU
+		General Public License along with this program. If not, see
+		&lt;http://www.gnu.org/licenses/&gt;.</string>
+	<string name="helpData">With your permission, I would like to gather some
+		information about your handset. All I\'m gathering is the SDK (i.e.
+		Cupcake, Froyo, Gingerbread) and a unique number preventing duplicate
+		entries. That\'s it. Why? Because if nobody using this app is running
+		1.5 then I can drop support for it and use the newer features.\nCharts
+		showing this information gathered will be made available on
+		http://nmap.wjholden.com.</string>
+	<string name="nmap_5_50_md5">e2dd484c3e157c0bfa31fb044d3d5974</string>
+	<string name="description">It\'s Nmap for your phone!</string>
+</resources>

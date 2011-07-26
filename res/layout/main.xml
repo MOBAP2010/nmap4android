@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/TableLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Spinner android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/CommandSpinner"></Spinner>
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:lines="1"
+			android:inputType="text" android:layout_weight="1" android:id="@+id/Target"
+			android:hint="@string/helpTarget"></EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Spinner android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/OutputSpinner"></Spinner>
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/Arguments"
+			android:lines="1" android:inputType="text" android:layout_weight="1"
+			android:hint="@string/helpArgs"></EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/Start"
+			android:text="Start" android:layout_weight="2"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Help" android:id="@+id/Help"
+			android:layout_weight="2"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Subnet" android:id="@+id/SubnetButton"
+			android:layout_weight="2"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/Share"
+			android:text="Share" android:layout_weight="2"></Button>
+	</LinearLayout>
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:id="@+id/results" android:inputType="text|textMultiLine"
+			android:layout_width="fill_parent" android:scrollbars="vertical"
+			android:layout_height="wrap_content"></TextView>
+	</ScrollView>
+</TableLayout>

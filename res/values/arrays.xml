@@ -1,0 +1,15 @@
+<resources>
+<string-array name="commands">
+	<item>nmap (svn)</item>
+	<item>nmap (atrix)</item>
+	<!-- Until I get a few issues resolved, nping, ncat, and ndiff are disabled. -->
+	<!-- <item>nping</item> -->
+	<!-- <item>ncat</item> -->
+	<!-- <item>ndiff</item> -->
+</string-array>
+<string-array name="output">
+	<item>Normal</item>
+	<item>XML</item>
+	<item>Grepable</item>
+</string-array>
+</resources>

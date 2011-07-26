@@ -1,0 +1,97 @@
+<ScrollView android:id="@+id/scrollView1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout android:id="@+id/tableLayout1"
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/textView1" android:layout_height="wrap_content"
+				android:text="Host IP Address" android:layout_width="wrap_content"
+				android:layout_weight="1"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="EditText"
+				android:layout_weight="1" android:id="@+id/editTextIP"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow2">
+			<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Default Gateway"
+				android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextDG"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/tableRow3">
+			<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Subnet Mask"
+				android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextSM"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow4">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/textView4"
+				android:text="Network Address" android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:id="@+id/editTextNet"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow5">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/textView5"
+				android:text="Broadcast Address" android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextBC"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow6">
+			<TextView android:id="@+id/textView6" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Number of Hosts"
+				android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextHosts"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow7">
+			<TextView android:layout_height="wrap_content" android:text="Primary DNS"
+				android:layout_width="wrap_content" android:id="@+id/textView7"
+				android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextDNS1"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow8">
+			<TextView android:layout_height="wrap_content" android:text="Secondary DNS"
+				android:layout_width="wrap_content" android:id="@+id/textView8"
+				android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextDNS2"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow9">
+			<TextView android:layout_height="wrap_content" android:text="Class"
+				android:layout_width="wrap_content" android:id="@+id/textView9"
+				android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextClass"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/tableRow10">
+			<TextView android:layout_height="wrap_content" android:text="SSID"
+				android:layout_width="wrap_content" android:id="@+id/textView10"
+				android:layout_weight="1"></TextView>
+			<EditText android:text="EditText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/editTextSSID"
+				android:layout_weight="1"></EditText>
+		</TableRow>
+	</TableLayout>
+</ScrollView>

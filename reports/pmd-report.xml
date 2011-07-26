@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-01-22T20:37:50.825">
+<file name="src/com/wjholden/nmap/NmapConstants.java">
+<violation beginline="12" endline="92" begincolumn="0" endcolumn="0" rule="AvoidConstantsInterface" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapConstants" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#AvoidConstantsInterface" priority="3">
+An Interface should be used only to model a behaviour; consider converting this to a class.
+</violation>
+<violation beginline="68" endline="68" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapConstants" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like MENU_ITEM_DEBUG_ENABLE
+</violation>
+<violation beginline="73" endline="73" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapConstants" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like MENU_ITEM_DEBUG_EMAIL
+</violation>
+<violation beginline="78" endline="78" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapConstants" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like MENU_ITEM_MORE_HELP
+</violation>
+<violation beginline="83" endline="83" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapConstants" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like MENU_ITEM_REINSTALL
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapConstants" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like MENU_GROUP_EXTRA_OPTIONS
+</violation>
+</file>
+<file name="src/com/wjholden/nmap/NmapInstall.java">
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="69" endline="69" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="94" endline="94" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="99" endline="99" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="132" endline="132" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'buf' could be declared final
+</violation>
+<violation beginline="135" endline="135" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'in_nmap_a' could be declared final
+</violation>
+<violation beginline="195" endline="195" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like installationResults
+</violation>
+<violation beginline="200" endline="200" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like os
+</violation>
+<violation beginline="201" endline="201" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like in
+</violation>
+<violation beginline="240" endline="240" begincolumn="0" endcolumn="0" rule="AssignmentInOperand" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AssignmentInOperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="240" endline="265" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'input' (lines '240'-'265').
+</violation>
+<violation beginline="244" endline="244" begincolumn="0" endcolumn="0" rule="AssignmentInOperand" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AssignmentInOperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="244" endline="265" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapInstall" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'error' (lines '244'-'265').
+</violation>
+</file>
+<file name="src/com/wjholden/nmap/NmapMain.java">
+<violation beginline="1" endline="648" begincolumn="0" endcolumn="0" rule="ExcessiveImports" ruleset="Coupling Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/coupling.html#ExcessiveImports" priority="3">
+A high number of imports can indicate a high degree of coupling within an object.
+</violation>
+<violation beginline="43" endline="648" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'NmapMain' has a Cyclomatic Complexity of 5 (Highest = 20).
+</violation>
+<violation beginline="43" endline="648" begincolumn="0" endcolumn="0" rule="TooManyMethods" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#TooManyMethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="43" endline="648" begincolumn="0" endcolumn="0" rule="TooManyFields" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#TooManyFields" priority="3">
+Too many fields
+</violation>
+<violation beginline="110" endline="110" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like sh
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="130" endline="130" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="142" endline="142" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like pd
+</violation>
+<violation beginline="147" endline="147" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="152" endline="152" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="152" endline="152" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'preferencesEditor' could be replaced by a local variable.
+</violation>
+<violation beginline="166" endline="166" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ne
+</violation>
+<violation beginline="171" endline="171" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="171" endline="171" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'wifiManager' could be replaced by a local variable.
+</violation>
+<violation beginline="176" endline="176" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'wifiInfo' could be replaced by a local variable.
+</violation>
+<violation beginline="179" endline="179" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like savedInstanceState
+</violation>
+<violation beginline="179" endline="318" begincolumn="0" endcolumn="0" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="179" endline="179" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'savedInstanceState' is not assigned and could be declared final
+</violation>
+<violation beginline="179" endline="318" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'onCreate' has a Cyclomatic Complexity of 20.
+</violation>
+<violation beginline="179" endline="318" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NPathComplexity" priority="3">
+The method onCreate() has an NPath complexity of 900
+</violation>
+<violation beginline="188" endline="188" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'target' could be declared final
+</violation>
+<violation beginline="192" endline="192" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'args' could be declared final
+</violation>
+<violation beginline="200" endline="200" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;installVerified&quot; appears 4 times in this file; the first occurrence is on line 200
+</violation>
+<violation beginline="202" endline="202" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;hasRunOneScan&quot; appears 4 times in this file; the first occurrence is on line 202
+</violation>
+<violation beginline="204" endline="204" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;canGetRoot&quot; appears 4 times in this file; the first occurrence is on line 204
+</violation>
+<violation beginline="230" endline="230" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'curVersion' could be declared final
+</violation>
+<violation beginline="252" endline="252" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like v
+</violation>
+<violation beginline="252" endline="252" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v' is not assigned and could be declared final
+</violation>
+<violation beginline="257" endline="257" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like targetAndArguments
+</violation>
+<violation beginline="257" endline="318" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+</violation>
+<violation beginline="257" endline="318" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+</violation>
+<violation beginline="257" endline="318" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+</violation>
+<violation beginline="257" endline="318" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'targetAndArguments' (lines '257'-'318').
+</violation>
+<violation beginline="286" endline="286" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like v
+</violation>
+<violation beginline="286" endline="286" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v' is not assigned and could be declared final
+</violation>
+<violation beginline="310" endline="310" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v' is not assigned and could be declared final
+</violation>
+<violation beginline="322" endline="322" begincolumn="0" endcolumn="0" rule="StringInstantiation" ruleset="String and StringBuffer Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#StringInstantiation" priority="2">
+Avoid instantiating String objects; this is usually unnecessary.
+</violation>
+<violation beginline="327" endline="327" begincolumn="0" endcolumn="0" rule="StringInstantiation" ruleset="String and StringBuffer Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#StringInstantiation" priority="2">
+Avoid instantiating String objects; this is usually unnecessary.
+</violation>
+<violation beginline="344" endline="344" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like savedInstanceState
+</violation>
+<violation beginline="344" endline="344" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'savedInstanceState' is not assigned and could be declared final
+</violation>
+<violation beginline="352" endline="353" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="354" endline="355" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="428" endline="428" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'uri' could be declared final
+</violation>
+<violation beginline="442" endline="442" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'surveyActivity' could be declared final
+</violation>
+<violation beginline="519" endline="520" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="533" endline="647" begincolumn="0" endcolumn="0" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="533" endline="647" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'initHandler' has a Cyclomatic Complexity of 18.
+</violation>
+<violation beginline="537" endline="645" begincolumn="0" endcolumn="0" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="537" endline="645" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'handleMessage' has a Cyclomatic Complexity of 17.
+</violation>
+<violation beginline="539" endline="647" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'alert' (lines '539'-'647').
+</violation>
+<violation beginline="539" endline="647" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'alert' (lines '539'-'647').
+</violation>
+<violation beginline="539" endline="647" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'alert' (lines '539'-'647').
+</violation>
+<violation beginline="545" endline="545" begincolumn="0" endcolumn="0" rule="EmptyStatementNotInLoop" ruleset="Basic Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="577" endline="577" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="581" endline="581" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="585" endline="585" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="603" endline="603" begincolumn="0" endcolumn="0" rule="AssignmentInOperand" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AssignmentInOperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="603" endline="647" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'line' (lines '603'-'647').
+</violation>
+<violation beginline="603" endline="647" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'line' (lines '603'-'647').
+</violation>
+<violation beginline="603" endline="647" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapMain" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'line' (lines '603'-'647').
+</violation>
+</file>
+<file name="src/com/wjholden/nmap/NmapScan.java">
+<violation beginline="25" endline="234" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'NmapScan' has a Cyclomatic Complexity of 10 (Highest = 21).
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like os
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'os' could be replaced by a local variable.
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like in
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'in' could be replaced by a local variable.
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'err' could be replaced by a local variable.
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'p' could be replaced by a local variable.
+</violation>
+<violation beginline="78" endline="233" begincolumn="0" endcolumn="0" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="78" endline="233" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'doInBackground' has a Cyclomatic Complexity of 21.
+</violation>
+<violation beginline="78" endline="233" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Code Size Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NPathComplexity" priority="3">
+The method doInBackground() has an NPath complexity of 79872
+</violation>
+<violation beginline="80" endline="233" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'exeParams' (lines '80'-'233').
+</violation>
+<violation beginline="88" endline="233" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'temporaryFolder' (lines '88'-'233').
+</violation>
+<violation beginline="107" endline="107" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="120" endline="120" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="148" endline="148" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="149" endline="149" begincolumn="0" endcolumn="0" rule="IfElseStmtsMustUseBraces" ruleset="Braces Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="181" endline="181" begincolumn="0" endcolumn="0" rule="AssignmentInOperand" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AssignmentInOperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="184" endline="184" begincolumn="0" endcolumn="0" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="188" endline="188" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg1' could be declared final
+</violation>
+<violation beginline="195" endline="195" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="203" endline="203" begincolumn="0" endcolumn="0" rule="AssignmentInOperand" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AssignmentInOperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="205" endline="205" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="211" endline="211" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="220" endline="220" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="228" endline="228" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="com.wjholden.nmap" class="NmapScan" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="src/com/wjholden/nmap/NmapSurvey.java">
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like savedInstanceState
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'savedInstanceState' is not assigned and could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like v
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v' is not assigned and could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'myUploadData' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="0" endcolumn="0" rule="DoNotUseThreads" ruleset="J2EE Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotUseThreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="77" endline="77" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="82" endline="82" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="97" endline="104" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="113" endline="113" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'client' could be declared final
+</violation>
+<violation beginline="114" endline="114" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'url' could be declared final
+</violation>
+<violation beginline="115" endline="115" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'uri' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapSurvey" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'httppost' could be declared final
+</violation>
+</file>
+<file name="src/com/wjholden/nmap/NmapUtilities.java">
+<violation beginline="83" endline="83" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="com.wjholden.nmap" class="NmapUtilities" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="108" endline="110" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.wjholden.nmap" class="NmapUtilities" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'dataDir' (lines '108'-'110').
+</violation>
+</file>
+</pmd>
