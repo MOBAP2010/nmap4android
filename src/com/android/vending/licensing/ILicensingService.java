@@ -3,12 +3,8 @@
  * Original file: aidl/ILicensingService.aidl
  */
 package com.android.vending.licensing;
-import java.lang.String;
-import android.os.RemoteException;
 import android.os.IBinder;
-import android.os.IInterface;
-import android.os.Binder;
-import android.os.Parcel;
+
 public interface ILicensingService extends android.os.IInterface
 {
 /** Local-side IPC implementation stub class. */
@@ -74,10 +70,12 @@ public android.os.IBinder asBinder()
 {
 return mRemote;
 }
+/*
 public java.lang.String getInterfaceDescriptor()
 {
 return DESCRIPTOR;
 }
+*/
 public void checkLicense(long nonce, java.lang.String packageName, com.android.vending.licensing.ILicenseResultListener listener) throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();

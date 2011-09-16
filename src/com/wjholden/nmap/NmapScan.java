@@ -144,6 +144,7 @@ public class NmapScan extends AsyncTask <String, Void, Void> implements NmapCons
 		inputStream = new BufferedReader(new InputStreamReader(process.getInputStream()));
 		errorStream = new BufferedReader(new InputStreamReader(process.getErrorStream()));
 
+		/*
 		if (outputStream == null)
 		{
 			NmapError.log("DataOutputStream 'os' is null!");
@@ -156,7 +157,8 @@ public class NmapScan extends AsyncTask <String, Void, Void> implements NmapCons
 		{
 			NmapError.log("BufferedReader 'err' is null!");
 		}
-
+		*/
+		
 		try {
 			outputStream.writeBytes("cd " + bindir + "\n");
 			NmapError.log("cd " + bindir);
